@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root">
+      <script>
+        // creates an h1 element tag
+        const heading = document.createElement("h1");
+
+        // add h1 content
+        heading.innerHTML = "Hello World";
+
+        // get root div using its ID
+        const root = document.getElementById("root");
+
+        // Inject the heading to it using append child
+        root.appendChild(heading);
+      </script>
+    </div>
+  </body>
+</html>
